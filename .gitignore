@@ -1,23 +1,28 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.env
-
-# Logs
-*.log
-
-# OS files
+# ===== OS junk =====
 .DS_Store
 Thumbs.db
 
-# Tool outputs
-*.pcap
-*.cap
-*.dump
-
-# Editors
+# ===== Editor / IDE =====
 .vscode/
 .idea/
+*.swp
+
+# ===== Python (in case any task scripts use it) =====
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ===== Secrets — never commit these =====
+.env
+*.pem
+*.key
+
+# ===== VM images/snapshots (large, don't belong in git) =====
+*.ova
+*.vdi
+*.vmdk
+
+# ===== Logs / temp files (not the named deliverables) =====
+*.log
+*.tmp
