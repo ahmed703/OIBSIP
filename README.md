@@ -65,8 +65,8 @@ OIBSIP/
 
 ## 👤 About Me
 
-**[Your Name]** — Cyber Security Intern @ Oasis InfoByte
-[LinkedIn](#) · [GitHub](#)
+**Ahmed Ayman Elbakry** — Cyber Security Intern @ Oasis InfoByte
+linkedin.com/in/ahmed-elbakry-5889a8213(#) · github.com/ahmed703(#)
 
 ## 🙏 Acknowledgement
 
