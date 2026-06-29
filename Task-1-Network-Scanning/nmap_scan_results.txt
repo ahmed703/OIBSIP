@@ -1,0 +1,30 @@
+Target Systems:
+1. Localhost (127.0.0.1)
+2. Kali Linux Virtual Machine (10.0.2.15)
+
+Tools Used:
+Nmap 7.99
+
+Scans Performed:
+- Basic TCP Scan
+- Service Version Detection (-sV)
+- OS Detection (-O)
+
+Results:
+
+127.0.0.1 (Loopback Interface):
+All 1000 commonly scanned TCP ports were closed.
+No services were detected.
+
+10.0.2.15 (Kali VM):
+All 1000 commonly scanned TCP ports were filtered (no-response).
+Service version detection and OS detection did not return results due to packet filtering.
+
+Security Analysis:
+Closed ports indicate that services are not accepting connections.
+Filtered ports suggest the presence of firewall rules or network filtering mechanisms that block probes.
+Both configurations reduce exposure to network-based attacks.
+
+Conclusion:
+The scanned systems demonstrate a strong security posture by limiting network service exposure
+and enforcing traffic filtering.
