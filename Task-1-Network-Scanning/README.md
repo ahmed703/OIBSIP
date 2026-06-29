@@ -1,25 +1,29 @@
-## Task 1: Basic Network Scanning with Nmap
+# Network Scanning with Nmap
 
-### What is Nmap?
-Nmap (Network Mapper) is a widely used open-source network scanning tool that helps identify
-active hosts, open ports, running services, and operating systems on a network.
+## Overview
+This project demonstrates basic network scanning using Nmap on a Kali Linux system. The goal is to identify open ports, running services, and assess potential security exposure.
 
-### Why Network Scanning Matters
-Network scanning is a fundamental cybersecurity practice used to understand the exposure of
-systems to potential attacks. By identifying open or filtered ports and running services,
-administrators can reduce attack surfaces and improve system security.
+## What is Nmap?
+Nmap (Network Mapper) is an open-source tool used for network discovery and security auditing. It allows administrators and security professionals to identify devices, services, and vulnerabilities on a network.
 
-### Tools Used
-- Nmap
-- Kali Linux
-- Linux Terminal
+## Why Network Scanning Matters
+Network scanning helps:
+- Identify exposed services
+- Detect misconfigurations
+- Reduce attack surface
+- Improve overall security posture
 
-### Summary of Performed Scans
-- Basic TCP scan to identify open ports
-- Service version detection to identify running services
-- OS detection to identify the underlying operating system
+## Scans Performed
+- Localhost scan
+- Target host scan
+- Service version detection
+- Operating system detection
 
-### Ethical Use Guidelines
-All scans were performed only on systems owned by the user, including the local machine and a
-local virtual machine. No external or production systems were scanned. Unauthorized network
-scanning is unethical and may be illegal.
+## Findings Summary
+No open ports were discovered during the scans. All scanned ports were either closed or filtered, indicating that the system is not exposing network services and may be protected by firewall rules or NAT.
+
+## Ethical Use Notice
+All scans were conducted on systems owned or controlled by the author. Unauthorized scanning of external networks is illegal and unethical.
+
+## Evidence
+Screenshots of terminal output are included in the `/screenshots` directory.
